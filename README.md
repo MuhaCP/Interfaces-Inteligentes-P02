@@ -11,7 +11,7 @@ Parametrizar el rango para poderlo cambiar desde el inspector.
 ### Resultado
 ![Ejercicio 1](Gifs/1.gif)
 
-Enlace script: [Ejercicio 1](Scripts/1.cs)
+Enlace script: [Ejercicio 1](Scripts/Rand25.cs)
 
 ## Ejercicio 2
 ### Descripción
@@ -22,7 +22,7 @@ cada objeto debe mostrar su nombre.
 ### Resultado
 ![Ejercicio 2](Gifs/2.gif)
 
-Enlace script: [Ejercicio 2](Scripts/2.cs)
+Enlace script: [Ejercicio 2](Scripts/Name.cs)
 
 ## Ejercicio 3
 ### Descripción
@@ -36,7 +36,7 @@ cada componente de los vectores desde el inspector. Muestra en la consola:
 ### Resultado
 ![Ejercicio 3](Gifs/3.gif)
 
-Enlace script: [Ejercicio 3](Scripts/3.cs)
+Enlace script: [Ejercicio 3](Scripts/Vectors.cs)
 
 ## Ejercicio 4
 ### Descripción
@@ -45,7 +45,7 @@ Muestra en pantalla el vector con la posición de la esfera.
 ### Resultado
 ![Ejercicio 4](Gifs/4.gif)
 
-Enlace script: [Ejercicio 4](Scripts/4.cs)
+Enlace script: [Ejercicio 4](Scripts/Position.cs)
 
 ## Ejercicio 5
 ### Descripción
@@ -55,7 +55,7 @@ cubo y el cilindro.
 ### Resultado
 ![Ejercicio 5](Gifs/5.gif)
 
-Enlace script: [Ejercicio 5](Scripts/5.cs)
+Enlace script: [Ejercicio 5](Scripts/Distance.cs)
 
 ## Ejercicio 6
 ### Descripción
@@ -66,7 +66,7 @@ de la posición de la esfera en el Inspector de Objetos.
 ### Resultado
 ![Ejercicio 6](Gifs/6.gif)
 
-Enlace script: [Ejercicio 6](Scripts/6.cs)
+Enlace script: [Ejercicio 6](Scripts/Align.cs)
 
 ## Ejercicio 7
 ### Descripción
@@ -76,7 +76,7 @@ cubo cuando el usuario pulse la flecha arriba.
 ### Resultado
 ![Ejercicio 7](Gifs/7.gif)
 
-Enlace script: [Ejercicio 7](Scripts/7.cs)
+Enlace script: [Ejercicio 7](Scripts/ChangeColor.cs)
 
 ## Ejercicio 8
 ### Descripción
@@ -89,4 +89,4 @@ pulsa la tecla espacio.
 ### Resultado
 ![Ejercicio 8](Gifs/8.gif)
 
-Enlace script: [Ejercicio 8](Scripts/8.cs)ç
+Enlace script: [Ejercicio 8](Scripts/Ejer8.cs)
