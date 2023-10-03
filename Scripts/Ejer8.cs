@@ -24,36 +24,29 @@ public class Ejer8 : MonoBehaviour
         //recorremos el array de floats y nos quedamos con el menor y el mayor
         float menor = distancias[0];
         float mayor = distancias[0];
+        int max = 0;
+        int max = 0;
 
         for (int i = 0; i < distancias.Length; i++)
         {
             if (distancias[i] < menor)
             {
                 menor = distancias[i];
+                max = i;
             }
             if (distancias[i] > mayor)
             {
                 mayor = distancias[i];
+                min = i;
             }
         }
 
         // aumentamos la altura del objeto más cercano
-        for (int i = 0; i < objetos.Length; i++)
-        {
-            if (distancias[i] == menor)
-            {
-                objetos[i].transform.position = new Vector3(objetos[i].transform.position.x, objetos[i].transform.position.y + 1, objetos[i].transform.position.z);
-            }
-        }
+        objetos[max].transform.position = new Vector3(objetos[i].transform.position.x, objetos[i].transform.position.y + 1, objetos[i].transform.position.z);
+
 
         // cambiamops el color del objeto más lejano
-        for (int i = 0; i < objetos.Length; i++)
-        {
-            if (distancias[i] == mayor)
-            {
-                objetos[i].GetComponent<Renderer>().material.color = Color.red;
-            }
-        }
+        objetos[min].GetComponent<Renderer>().material.color = Color.red;
     }
 
     // Update is called once per frame
